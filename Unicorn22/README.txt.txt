@@ -1,0 +1,40 @@
+ABOUT:
+This simple graphics demo showcases both C++ and the rendering capabilities of the SDL2 Graphics Library. 
+It features an animated sprite that is controlled by user input (Up, Left, Down, Right, Shift) that walks around the screen, cycling
+through a range of motion determined by the key press. The shift key causes the animation process and the swiftness of which it moves
+accross the screen to increase. Letting go of the shift key returns the animation to its default values. Behind the sprite, the demo
+features a map created in the tiled software, featuring game art that was avaliable for public use, that contains several properties.
+Most notable of these properties is the bounding boxes overlayed on top of objects such as trees and rocks. The sprite, when it comes 
+in contact with these bounding boxes, experiences a collission and is unable onto that part of the map. 
+
+The movement of the demo itself is also unique in that both the map and the sprite have the capability to move depending on the sprite's location
+on the map. When the map reaches the edge of the screen, it can no longer scroll and the player is able to move accross the screen. The sprite
+is unable to move past the edge of the screen, either experiencing a collission or reaactivating the movement of the map. 
+
+Some things that I picked up for future projects:
+   - I could've spent more time working in C++ without SDL so that I can better organize the code (e.g splitting classes into multiple files,
+	creating less dependency between classes...)
+   - Pointers/References are very useful and crucial in C++
+   - I would like to spend more time researching game architecture and game design patterns
+   - The location of project libraries is important. I would probably organize the necessary files into the project folder
+	itself.  
+   - Take more time to familarie myself with C++ naming conventions to encourage consistency accross the code
+   - Learn the Visual Studio debugging tools earlier on as they came in handy throughout the late stages of the process
+
+
+SOFTWARE USED:
+Tiled 1.9.2
+
+DEPENDENCIES USED:
+tmxlite 
+SDL2 (and SDL2 Images Library)
+
+TUTORIALS USED:
+https://lazyfoo.net/tutorials/SDL/index.php
+http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/
+C++ Programming in Easy Steps by Mike McGrath
+
+ASSET CREDITS:
+"[LPC] Horses" Artist: bluecarrot16 License: CC-BY 3.0 / GPL 3.0 / GPL 2.0 / OGA-BY 3.0. 
+	Please link to opengameart: http://opengameart.org/content/lpc-horses. Reworked by Jordan Irwin (AntumDeluge).*/
+http://opengameart.org/users/hyptosis
