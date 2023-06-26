@@ -1,3 +1,5 @@
+VIEW GAMEDEMO.mp4 FOR A VIDEO DEMONSTRATION
+
 ABOUT:
 This simple graphics demo showcases both C++ and the rendering capabilities of the SDL2 Graphics Library. 
 It features an animated sprite that is controlled by user input (Up, Left, Down, Right, Shift) that walks around the screen, cycling
